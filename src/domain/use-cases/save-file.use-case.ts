@@ -24,7 +24,7 @@ export class SaveFile implements SaveFilesUseCase{
             return true
         }
         catch (error){
-            console.error(error);
+            // console.error(error); Esto debería realizarlo con un logger para que no moleste en el testing
             return false
         }
     }
